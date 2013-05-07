@@ -6,6 +6,7 @@ node common {
   }
 }
 
+# management server
 node "test01.robinbowes.com" inherits common{
 
   include
@@ -13,6 +14,7 @@ node "test01.robinbowes.com" inherits common{
 
 }
 
+# hypervisor
 node "cloudstack.robinbowes.com" inherits common{
 
   include

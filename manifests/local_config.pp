@@ -22,7 +22,7 @@
       name     => 'EPEL packages for EL',
       baseurl  => 'http://cobbler.robinbowes.com/cobbler/repo_mirror/epel-6-x86_64',
       enabled  => 1,
-      gpgcheck => 1,
+      gpgcheck => 0,
       gpgkey   => 'file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6',
       protect  => 0,
       priority => 10
